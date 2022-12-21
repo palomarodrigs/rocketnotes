@@ -40,8 +40,9 @@ export const Avatar = styled.div`
   > img {
     border-radius: 50%;
 
-    width: 186px;
+    width: 100%;
     height: 186px;
+    object-fit: cover;
   }
 
   > label {
